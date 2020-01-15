@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnuMore"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="more"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:title="Inicio"
+                android:id="@+id/mnuIn"
+                android:icon="@drawable/ic_fiber_new_black_24dp"
+                />
+            <item
+                android:title="Fragmentos"
+                android:id="@+id/mnuFrag"
+                android:icon="@drawable/ic_filter_frames_black_24dp"/>
+
+            <item
+                android:id="@+id/mnuClose"
+                android:icon="@drawable/ic_close_black_24dp"
+                android:title="Cerrar sesion" />
+
+
+        </menu>
+
+    </item>
+
+</menu>
